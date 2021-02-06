@@ -1,0 +1,53 @@
+.container5{
+    
+    margin: 0 auto; /* this will make box at centre*/
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    font-family:'Hanalei', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-family: 'Press Start 2P';
+}
+
+.flexbox-row1,.flexbox-row2,.flexbox-row3{
+    display: flex;
+    background: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flexbox-row1,.flexbox-row2{
+    background: url('https://image.freepik.com/free-vector/poker-table-background-green-color_47243-1067.jpg') 100% center;
+    color: #ffffff;
+}
+.flexbox-row1 div{
+    border-right: 1px solid black;
+    padding: 10px;
+    flex: 1; /* give equall space to ecah*/
+    text-align: center;
+    height: 410px;
+}
+
+.flexbox-row1 img{ /* this is for img we add in yourbox */
+    width: 20%;
+    padding: 10px;
+}
+.flexbox-row2 button{
+
+    padding: 10px;
+}
+
+.flexbox-row2 div{
+   
+    padding: 10px;
+}
+
+table,th,td{
+    padding: 5px;
+    border: 1px solid black;
+}
