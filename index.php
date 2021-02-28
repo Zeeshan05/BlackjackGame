@@ -1,0 +1,1 @@
+<?php readfile("rummy.html");?>
